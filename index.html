@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link href="portfolio/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <title>My Portfolio | Ahmad Alfiani</title>
+
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  </head>
+  <body id="home">
+    <!-- Navbar -->
+
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark shadow-sm">
+      <div class="container">
+        <a href="#" class="navbar-brand">Ahmad Alfiani</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a href="#home" class="nav-link active" aria-current="page">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#about" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="#projects" class="nav-link">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contact" class="nav-link">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Akhir Navbar -->
+
+    <!-- Jumbotron -->
+
+    <section class="jumbotron text-center">
+      <img src="Ahmad Alfiani.jpg" alt="Ahmad Alfiani" width="200px" class="rounded-circle img-thumbnail" />
+      <h1 class="display-4">Ahmad Alfiani</h1>
+      <p class="lead">Graphic Designer | Web Developer</p>
+      <img src="wave.svg" alt="Gelombang 1" />
+    </section>
+
+    <!-- Akhir Jumbotron -->
+
+    <!-- About -->
+    <section id="about">
+      <div class="container">
+        <div class="row text-center mb-3">
+          <div class="col">
+            <h2>About Me</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center fs-5 text-center">
+          <div class="col-md-4">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis accusamus aliquid aut dicta optio! Et suscipit magni commodi aperiam expedita!</p>
+          </div>
+          <div class="col-md-4">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem nam expedita natus omnis, provident corrupti aspernatur fugit illum ut necessitatibus consequatur saepe ab, molestias temporibus.</p>
+          </div>
+        </div>
+      </div>
+      <img src="wave1.svg" alt="Gelombang 2" />
+    </section>
+    <!-- Akhir About -->
+
+    <!-- Projects -->
+    <section id="projects">
+      <div class="container">
+        <div class="row text-center mb-3">
+          <div class="col">
+            <h2>My Projects</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="img1.jpg" class="card-img-top" alt="Project 1" />
+              <div class="card-body">
+                <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam, libero?</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="img2.jpg" class="card-img-top" alt="Project 2" />
+              <div class="card-body">
+                <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam, libero?</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="img3.jpg" class="card-img-top" alt="Project 3" />
+              <div class="card-body">
+                <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam, libero?</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="img4.jpg" class="card-img-top" alt="Project 4" />
+              <div class="card-body">
+                <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam, libero?</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="img5.jpg" class="card-img-top" alt="Project 5" />
+              <div class="card-body">
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, eveniet!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img src="wave2.svg" alt="Gelombang 3" />
+    </section>
+    <!-- Akhir Projects -->
+
+    <!-- Contact -->
+    <section id="contact">
+      <div class="container">
+        <div class="row text-center mb-3">
+          <div class="col">
+            <h2>Contact Me</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-6">
+            <form>
+              <div class="mb-3">
+                <label for="name" class="form-label">Nama Lengkap</label>
+                <input type="text" name="name" class="form-control" id="name" aria-describedby="name" />
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" name="email" class="form-control" id="email" aria-describedby="email" />
+              </div>
+              <div class="mb-3">
+                <label for="message" class="form-label">Pesan</label>
+                <textarea class="form-control" name="message" id="message" rows="3"></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Kirim</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <img src="wave3.svg" alt="Gelombang 3" />
+    </section>
+    <!-- Akhir Contact -->
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center pb-5">
+      <p>Created with <img src="icons/suit-heart-fill.svg" alt="" /> by <a class="text-white fw-bold" href="https://www.instagram.com/ahmad.alfiani2568/">Ahmad Alfiani</a></p>
+    </footer>
+    <!-- Akhir Footer -->
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="portfolio/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
